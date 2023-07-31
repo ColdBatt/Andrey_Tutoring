@@ -1,0 +1,10 @@
+Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\Tutoring.exe
+Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\Tutoring.pdb
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.csproj.AssemblyReference.cache
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.csproj.SuggestedBindingRedirects.cache
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.csproj.CoreCompileInputs.cache
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.exe
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.pdb
+Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\nunit.framework.dll
+Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\nunit.framework.xml
+Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.csproj.CopyComplete
