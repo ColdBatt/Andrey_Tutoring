@@ -41,7 +41,13 @@ internal class Program
 
     public static bool IsPalindrome(string str)
     {
-        return default;
+        string strReverse = String.Empty;
+        
+        for (int i = str.Length - 1; i <= 0; i--)
+        {
+            strReverse += str[i];
+        }
+        return str.Equals(strReverse);       
     }
 
     public static string UcString(string str)
