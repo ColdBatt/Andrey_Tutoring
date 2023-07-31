@@ -77,7 +77,6 @@ public class MyLinkedList<T>: IEnumerable<T>
 
     }
 
-
     public IEnumerator<T> GetEnumerator()
     {
         var current = Tail;

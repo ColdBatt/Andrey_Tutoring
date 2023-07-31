@@ -8,3 +8,4 @@ Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.pdb
 Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\nunit.framework.dll
 Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\nunit.framework.xml
 Z:\Study\Tutoring\Tutoring\Tutoring\obj\Debug\Tutoring.csproj.CopyComplete
+Z:\Study\Tutoring\Tutoring\Tutoring\bin\Debug\Tutoring.exe.config

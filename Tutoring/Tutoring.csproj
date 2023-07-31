@@ -48,6 +48,7 @@
     <Compile Include="EducationType.cs" />
     <Compile Include="Examples\Example.cs" />
     <Compile Include="Examples\Node.cs" />
+    <Compile Include="Examples\Numbers.cs" />
     <Compile Include="Examples\Transport.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="MyLinkedList.cs" />
