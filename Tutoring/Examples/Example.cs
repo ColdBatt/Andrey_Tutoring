@@ -1,39 +1,44 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Tutoring;
 
-class Person
+class Command
 {
-    public string Name { get; set; }
-    public Person(string name)
+    public string Name;
+    private List<string> _acceptedCommandNames = new () {"Forward", "Back", "Stop"};
+    public Command(string name)
     {
-        Name = name;
-    }
-    public virtual void Print()
-    {
-        Console.WriteLine($"Person {Name}");
+        if (_acceptedCommandNames.Contains(name))
+            Name = name;
+        else
+            Name = "Stop";
     }
 }
- 
-class Employee : Person
-{
-    public string Company { get; set; }
-    public Employee(string name, string company) : base(name)
-    {
-        Company = company;
-    }
 
-    public override void Print()
-    {
-        Console.WriteLine($"Person {Name} working in company - {Company}");
-    }
-}
- 
-class Client : Person
+
+class Programm
 {
-    public string Bank { get; set; }
-    public Client(string name, string bank) : base(name)
+    public void ShowCommand(Command command)
     {
-        Bank = bank;
+        if (command == null)
+        {
+            if (command.Name == "Forward")
+            {
+                Console.WriteLine("Forward");
+            }
+            else if (command.Name == "Back")
+            {
+                Console.WriteLine("Back");
+            }
+            else
+            {
+                Console.WriteLine("Stop");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No Command");
+        }
     }
 }
