@@ -15,30 +15,15 @@ class Command
             Name = "Stop";
     }
 }
-
-
 class Programm
 {
     public void ShowCommand(Command command)
     {
         if (command == null)
         {
-            if (command.Name == "Forward")
-            {
-                Console.WriteLine("Forward");
-            }
-            else if (command.Name == "Back")
-            {
-                Console.WriteLine("Back");
-            }
-            else
-            {
-                Console.WriteLine("Stop");
-            }
-        }
-        else
-        {
             Console.WriteLine("No Command");
+            return;           
         }
+        Console.WriteLine(command.Name);
     }
 }
